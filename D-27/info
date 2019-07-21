@@ -1,0 +1,6 @@
+Given an expression string exp , write a program to examine whether the pairs and the 
+orders of “{“,”}”,”(“,”)”,”[“,”]” are correct in exp.
+
+For this i am using stack and pusing all the elements to stack and then if check for matching closing expr is it is found
+pop the stack
+after that check if stack is empty if it is empty then return true
